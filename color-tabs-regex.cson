@@ -1,0 +1,30 @@
+# Rails
+'app/':
+  'models/.*\\.rb': '#e66'
+  'controllers/.*\\.rb': '#66e'
+  'helpers/.*\\.rb': '#770'
+  'views/.*\\.h(a|t)ml(\\.erb)?': '#aa5'
+  'views/.*\\.js\\.erb': '#a80'
+  'views/.*\\.text\\.erb': '#9b5'
+'spec/':
+  'models/.*\\.rb': '#faa'
+  'controllers/.*\\.rb': '#aaf'
+  'features/.*\\.rb': '#ffc'
+'config/':
+  '.*\\.rb': '#a88'
+  'locales/.*\\.yml': '#5aa'
+
+# Python
+'templates/.*\\.html': '#aa5'
+
+# Atom
+'\\.atom/':
+  '.*\\.cson': '#66e'
+
+# Overall
+'.*\\.css': '#595'
+'.*\\.(s(a|c)|le)ss': '#7c7'
+'.*\\.styl': '#7c7'
+'.*\\.yml': '#8aa'
+'.*\\.js$': '#a50'
+'.*\\.coffee': '#e85'

@@ -1,0 +1,129 @@
+"*":
+  "exception-reporting":
+    userId: "b60c9b9b-70af-7001-856e-8814154d5a86"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "quantum-ui"
+      "advanced-railscasts-syntax"
+    ]
+    autoHideMenuBar: true
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "rails-transporter"
+      "ruby-test"
+      "symbols-tree-view"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 17
+    tabLength: 4
+    fontFamily: "Droid Sans Mono"
+    showIndentGuide: true
+  "ruby-test":
+    rspecAllCommand: "bundle exec rspec --tty -f d spec"
+    rspecFileCommand: "bundle exec rspec --tty -f d {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty -f d {relative_path}:{line_number}"
+    specFramework: "rspec"
+  "atom-fuzzy-grep": {}
+  "go-to-view":
+    default_ending: ".html.haml"
+  "run-command2": {}
+  "one-dark-ui": {}
+  "autocomplete-plus": {}
+  "quantum-shell": {}
+  rspec:
+    command: "bundle exec rspec -fp"
+    save_before_run: true
+  "isotope-ui":
+    fontFamily: "Source Sans Pro"
+    fontWeight: "Regular"
+    spaciousMode: true
+  "git-blame":
+    ignoreWhiteSpaceDiffs: true
+  blame: {}
+  "color-tabs-regex":
+    regexEngine: "String.match"
+    breakAfterFirstMatch: true
+  "color-tabs":
+    borderSize: 3
+    borderStyle: "bottom"
+    backgroundStyle: "none"
+  "fuzzy-finder": {}
+  "atom-material-ui":
+    depth: true
+    fontSize: "Big"
+    accentColor: "Blue"
+    compactTreeView: true
+    showTabIcons: "Show on all tabs"
+  linter:
+    showErrorPanel: false
+  emmet: {}
+  "git-plus": {}
+  "rails-transporter": {}
+  "toggle-quotes": {}
+  "linter-rubocop": {}
+  "linter-ruby":
+    ignoredExtensions: [
+      "erb"
+      "md"
+      "haml"
+      "html.haml"
+      "yml"
+      "yaml"
+    ]
+  pigments:
+    ignoredNames: [
+      "node_modules/*"
+      "spec/*"
+      "test/*"
+      "vendor/assets/javascript/*"
+    ]
+    traverseIntoSymlinkDirectories: true
+    groupPaletteColors: "by file"
+    sortPaletteColors: "by color"
+    mergeColorDuplicates: true
+  "find-and-replace": {}
+  "advanced-open-file":
+    helmDirSwitch: true
+  "symbols-tree-view": {}
+  counter: {}
+  "git-log": {}
+  "ruby-block-converter": {}
+  "clipboard-plus": {}
+  jumpy: {}
+  "status-bar": {}
+  "file-icons": {}
+".css.scss.source":
+  editor:
+    tabLength: 2
+".git-commit.text":
+  editor:
+    preferredLineLength: 72
+    softWrap: false
+    softWrapAtPreferredLineLength: false
+".source.yaml":
+  editor:
+    tabLength: 2
+".haml.text":
+  editor:
+    tabLength: 2
+".hamlc.text":
+  editor:
+    tabLength: 2
+".litcoffee.source":
+  editor:
+    tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
+".coffee.source":
+  editor:
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
+".git-rebase.text":
+  editor:
+    preferredLineLength: 72

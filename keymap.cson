@@ -1,0 +1,28 @@
+'atom-workspace':
+  'ctrl-alt-i': 'editor:toggle-indent-guide'
+
+  'alt-r c': 'rails-transporter:open-controller'
+  'alt-r v': 'rails-transporter:open-view-finder'
+  'alt-r m': 'rails-transporter:open-model'
+  'alt-r h': 'rails-transporter:open-helper'
+  'alt-r s': 'rails-transporter:open-spec'
+
+  'alt-v': 'clipboard-plus:toggle'
+
+  'alt-r alt-r': 'related:show-related-files'
+  'ctrl-alt-t': 'symbols-tree-view:toggle'
+
+'.platform-linux atom-workspace':
+  'alt-p ctrl-t': 'ruby-test:test-file'
+  'alt-p ctrl-c': 'ruby-test:cancel'
+  'alt-p ctrl-r': 'ruby-test:test-single'
+  'alt-p ctrl-e': 'ruby-test:test-previous'
+  'alt-p ctrl-a': 'ruby-test:test-all'
+
+'atom-text-editor:not([mini])':
+  'ctrl-alt-enter': 'emmet:interactive-expand-abbreviation'
+  'ctrl-e': 'emmet:expand-abbreviation'
+  'alt-e down': 'emmet:decrement-number-by-01'
+  'alt-e alt-down': 'emmet:decrement-number-by-10'
+  'alt-e up': 'emmet:increment-number-by-01'
+  'alt-e alt-up': 'emmet:increment-number-by-10'
