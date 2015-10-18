@@ -95,6 +95,8 @@
   jumpy: {}
   "status-bar": {}
   "file-icons": {}
+  wakatime:
+    apikey: "1271ee0f-de2d-4c20-ac6c-afd6fdaa769a"
 ".css.scss.source":
   editor:
     tabLength: 2
