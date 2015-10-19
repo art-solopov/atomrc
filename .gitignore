@@ -4,3 +4,5 @@ packages
 storage
 compile-cache
 nohup.out
+projects.cson
+local.init.coffee
