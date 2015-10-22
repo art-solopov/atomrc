@@ -26,7 +26,8 @@
     rspecFileCommand: "bundle exec rspec --tty -f d {relative_path}"
     rspecSingleCommand: "bundle exec rspec --tty -f d {relative_path}:{line_number}"
     specFramework: "rspec"
-  "atom-fuzzy-grep": {}
+  "atom-fuzzy-grep":
+    preserveLastSearch: true
   "go-to-view":
     default_ending: ".html.haml"
   "run-command2": {}
@@ -95,9 +96,28 @@
   jumpy: {}
   "status-bar": {}
   "file-icons": {}
-  wakatime:
-    apikey: "1271ee0f-de2d-4c20-ac6c-afd6fdaa769a"
 ".css.scss.source":
+  editor:
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
+".coffee.source":
+  editor:
+    tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
+".litcoffee.source":
+  editor:
+    tabLength: 2
+".hamlc.text":
+  editor:
+    tabLength: 2
+".haml.text":
+  editor:
+    tabLength: 2
+".source.yaml":
   editor:
     tabLength: 2
 ".git-commit.text":
@@ -105,27 +125,9 @@
     preferredLineLength: 72
     softWrap: false
     softWrapAtPreferredLineLength: false
-".source.yaml":
-  editor:
-    tabLength: 2
-".haml.text":
-  editor:
-    tabLength: 2
-".hamlc.text":
-  editor:
-    tabLength: 2
-".litcoffee.source":
-  editor:
-    tabLength: 2
-".ruby.source":
-  editor:
-    tabLength: 2
-".coffee.source":
-  editor:
-    tabLength: 2
-".sass.source":
-  editor:
-    tabLength: 2
 ".git-rebase.text":
   editor:
     preferredLineLength: 72
+".git-config.source":
+  editor:
+    preferredLineLength: 80
