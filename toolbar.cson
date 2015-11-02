@@ -1,0 +1,19 @@
+[
+  {
+    type: 'url'
+    icon: 'octoface'
+    url: 'https://github.com'
+    tooltip: 'GitHub'
+    style:
+      color: '#ad8'
+  }
+  {
+    type: 'spacer'
+  }
+  {
+    type: 'button'
+    icon: 'diff'
+    callback: 'copy-path:copy-project-relative-path'
+    tooltip: 'Copy relative path'
+  }
+]

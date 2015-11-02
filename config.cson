@@ -96,38 +96,41 @@
   jumpy: {}
   "status-bar": {}
   "file-icons": {}
+  "tool-bar": {}
+  "flex-tool-bar": {}
+  term3: {}
 ".css.scss.source":
   editor:
     tabLength: 2
-".sass.source":
+".git-config.source":
   editor:
-    tabLength: 2
-".coffee.source":
+    preferredLineLength: 80
+".git-rebase.text":
   editor:
-    tabLength: 2
-".ruby.source":
-  editor:
-    tabLength: 2
-".litcoffee.source":
-  editor:
-    tabLength: 2
-".hamlc.text":
-  editor:
-    tabLength: 2
-".haml.text":
-  editor:
-    tabLength: 2
-".source.yaml":
-  editor:
-    tabLength: 2
+    preferredLineLength: 72
 ".git-commit.text":
   editor:
     preferredLineLength: 72
     softWrap: false
     softWrapAtPreferredLineLength: false
-".git-rebase.text":
+".source.yaml":
   editor:
-    preferredLineLength: 72
-".git-config.source":
+    tabLength: 2
+".haml.text":
   editor:
-    preferredLineLength: 80
+    tabLength: 2
+".hamlc.text":
+  editor:
+    tabLength: 2
+".litcoffee.source":
+  editor:
+    tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
+".coffee.source":
+  editor:
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
