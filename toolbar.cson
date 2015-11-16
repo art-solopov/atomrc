@@ -5,15 +5,24 @@
     url: 'https://github.com'
     tooltip: 'GitHub'
     style:
-      color: '#ad8'
+      color: '#ee9'
   }
   {
     type: 'spacer'
   }
   {
     type: 'button'
-    icon: 'diff'
+    icon: 'diff-added'
+    callback: 'application:new-file'
+    style:
+      color: '#ad8'
+  }
+  {
+    type: 'button'
+    icon: 'file-symlink-directory'
     callback: 'copy-path:copy-project-relative-path'
     tooltip: 'Copy relative path'
+    style:
+      color: '#aae'
   }
 ]

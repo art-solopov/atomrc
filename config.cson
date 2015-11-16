@@ -5,15 +5,17 @@
     showOnStartup: false
   core:
     themes: [
-      "quantum-ui"
-      "advanced-railscasts-syntax"
+      "atom-dark-ui"
+      "one-dark-vivid-syntax"
     ]
-    autoHideMenuBar: true
     packagesWithKeymapsDisabled: [
       "emmet"
       "rails-transporter"
       "ruby-test"
       "symbols-tree-view"
+    ]
+    disabledPackages: [
+      "wrap-guide"
     ]
   editor:
     invisibles: {}
@@ -21,6 +23,7 @@
     tabLength: 4
     fontFamily: "Droid Sans Mono"
     showIndentGuide: true
+    scrollPastEnd: true
   "ruby-test":
     rspecAllCommand: "bundle exec rspec --tty -f d spec"
     rspecFileCommand: "bundle exec rspec --tty -f d {relative_path}"
@@ -99,38 +102,57 @@
   "tool-bar": {}
   "flex-tool-bar": {}
   term3: {}
+  "file-watcher":
+    includeCompareOption: false
+  "atom-beautify":
+    _analyticsUserId: "fefe8e4c-80b1-42ed-975d-2b18d09cec65"
+  minimap:
+    plugins:
+      "git-diff": true
 ".css.scss.source":
-  editor:
-    tabLength: 2
-".git-config.source":
-  editor:
-    preferredLineLength: 80
-".git-rebase.text":
-  editor:
-    preferredLineLength: 72
-".git-commit.text":
-  editor:
-    preferredLineLength: 72
-    softWrap: false
-    softWrapAtPreferredLineLength: false
-".source.yaml":
-  editor:
-    tabLength: 2
-".haml.text":
-  editor:
-    tabLength: 2
-".hamlc.text":
-  editor:
-    tabLength: 2
-".litcoffee.source":
   editor:
     tabLength: 2
 ".ruby.source":
   editor:
     tabLength: 2
-".coffee.source":
-  editor:
-    tabLength: 2
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      110
+      80
+    ]
 ".sass.source":
   editor:
     tabLength: 2
+".coffee.source":
+  editor:
+    tabLength: 2
+".litcoffee.source":
+  editor:
+    tabLength: 2
+".hamlc.text":
+  editor:
+    tabLength: 2
+".haml.text":
+  editor:
+    tabLength: 2
+".git-commit.text":
+  editor:
+    preferredLineLength: 72
+    softWrap: false
+    softWrapAtPreferredLineLength: false
+".git-rebase.text":
+  editor:
+    preferredLineLength: 72
+".git-config.source":
+  editor:
+    preferredLineLength: 80
+".source.yaml":
+  editor:
+    tabLength: 2
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      110
+      80
+    ]
