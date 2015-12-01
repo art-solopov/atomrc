@@ -7,10 +7,26 @@
   'alt-r h': 'rails-transporter:open-helper'
   'alt-r s': 'rails-transporter:open-spec'
 
+  'alt-r alt-c': 'rails-finder:toggle-controller'
+  'alt-r alt-m': 'rails-finder:toggle-model'
+  'alt-r alt-v': 'rails-finder:toggle-view'
+  'alt-r alt-h': 'rails-finder:toggle-helper'
+  'alt-r alt-i': 'rails-finder:toggle-mailer'
+  'alt-r alt-s': 'rails-finder:toggle-spec'
+  'alt-r alt-l': 'rails-finder:toggle-lib'
+  'alt-r alt-a': 'rails-finder:toggle-asset'
+  'alt-r alt-o': 'rails-finder:toggle-config'
+  'alt-r alt-d': 'rails-finder:toggle-db'
+  'alt-r alt-g': 'rails-finder:toggle-log'
+  'alt-r alt-r': 'rails-finder:toggle-root'
+
   'alt-v': 'clipboard-plus:toggle'
 
-  'alt-r alt-r': 'related:show-related-files'
   'ctrl-alt-t': 'symbols-tree-view:toggle'
+
+  'alt-w alt-9': 'wrap-and-pad:wrap-and-pad-with-parenthesis'
+  'alt-w alt-[': 'wrap-and-pad:wrap-and-pad-with-curly-brackets'
+  'alt-w alt-]': 'wrap-and-pad:wrap-and-pad-with-brackets'
 
 '.platform-linux atom-workspace':
   'alt-p ctrl-t': 'ruby-test:test-file'

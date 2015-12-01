@@ -5,7 +5,7 @@
     showOnStartup: false
   core:
     themes: [
-      "atom-dark-ui"
+      "spacegray-dark-ui"
       "one-dark-vivid-syntax"
     ]
     packagesWithKeymapsDisabled: [
@@ -24,6 +24,7 @@
     fontFamily: "Droid Sans Mono"
     showIndentGuide: true
     scrollPastEnd: true
+    preferredLineLength: 110
   "ruby-test":
     rspecAllCommand: "bundle exec rspec --tty -f d spec"
     rspecFileCommand: "bundle exec rspec --tty -f d {relative_path}"
@@ -41,9 +42,10 @@
     command: "bundle exec rspec -fp"
     save_before_run: true
   "isotope-ui":
-    fontFamily: "Source Sans Pro"
+    fontFamily: "Ubuntu"
     fontWeight: "Regular"
     spaciousMode: true
+    backgroundGradient: true
   "git-blame":
     ignoreWhiteSpaceDiffs: true
   blame: {}
@@ -55,15 +57,35 @@
     borderStyle: "bottom"
     backgroundStyle: "none"
   "fuzzy-finder": {}
-  "atom-material-ui":
-    depth: true
-    fontSize: "Big"
-    accentColor: "Blue"
-    compactTreeView: true
-    showTabIcons: "Show on all tabs"
-  linter:
-    showErrorPanel: false
+  linter: {}
   emmet: {}
+  "wrap-and-pad":
+    pairs: [
+      {
+        name: "parenthesis"
+        start: "("
+        pad: " "
+        end: ")"
+      }
+      {
+        name: "brackets"
+        start: "["
+        pad: " "
+        end: "]"
+      }
+      {
+        name: "curly-brackets"
+        start: "{"
+        pad: " "
+        end: "}"
+      }
+      {
+        name: "rspec-it"
+        start: "it {"
+        pad: " "
+        end: "}"
+      }
+    ]
   "git-plus": {}
   "rails-transporter": {}
   "toggle-quotes": {}
@@ -109,10 +131,47 @@
   minimap:
     plugins:
       "git-diff": true
+  "tidy-tabs":
+    minimumTabs: 5
+  "api-workbench": {}
+  "smart-tab-name": {}
+  semanticolor:
+    affectedSourceObjects:
+      enableVariables: false
+    colorDiversity: 120
+  "dark-flat-ui":
+    accentColor: "blue"
+  "steam-pirate-ui":
+    layoutMode: "Spacious"
+  "tree-view": {}
+".rspec.ruby.source":
+  "multi-wrap-guide":
+    columns: [
+      110
+      80
+    ]
+  editor:
+    preferredLineLength: 80
+".rails.ruby.source":
+  "multi-wrap-guide":
+    columns: [
+      110
+      80
+    ]
+  editor:
+    preferredLineLength: 80
 ".css.scss.source":
   editor:
     tabLength: 2
-".ruby.source":
+".haml.text":
+  editor:
+    tabLength: 2
+    preferredLineLength: 110
+".hamlc.text":
+  editor:
+    tabLength: 2
+    preferredLineLength: 110
+".source.yaml":
   editor:
     tabLength: 2
     preferredLineLength: 80
@@ -121,33 +180,27 @@
       110
       80
     ]
-".sass.source":
+".git-config.source":
   editor:
-    tabLength: 2
-".coffee.source":
+    preferredLineLength: 80
+".git-rebase.text":
   editor:
-    tabLength: 2
-".litcoffee.source":
-  editor:
-    tabLength: 2
-".hamlc.text":
-  editor:
-    tabLength: 2
-".haml.text":
-  editor:
-    tabLength: 2
+    preferredLineLength: 72
 ".git-commit.text":
   editor:
     preferredLineLength: 72
     softWrap: false
     softWrapAtPreferredLineLength: false
-".git-rebase.text":
+".litcoffee.source":
   editor:
-    preferredLineLength: 72
-".git-config.source":
+    tabLength: 2
+".coffee.source":
   editor:
-    preferredLineLength: 80
-".source.yaml":
+    tabLength: 2
+".sass.source":
+  editor:
+    tabLength: 2
+".ruby.source":
   editor:
     tabLength: 2
     preferredLineLength: 80
